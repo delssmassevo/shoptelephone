@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB 1</title>
+     <!--bootstrap links-->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <!--CSS links-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<!--header-->
+    <header class="header-wrap header-2">
+            <div class="header-top-bar text-white d-none d-sm-block">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-9 col-sm-9">
+                                <ul class="top-left-content">
+                                    <li><i class="flaticon-paper-plane"></i> Info@TelephoneShop.com</li>
+                                    <li><i class="flaticon-map"></i> Kinshasa, Lubumbashi, Kananga</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-sm-3 text-end">
+                                <div class="top-social-icons">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--header-->
+    </header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="logo"><span id="span1">T</span>elephone <span>Shop</span></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Accueill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="PRODUITS.html">Produit</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorie
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                            style="background-color: rgb(67, 0, 86);">
+                            <li><a class="dropdown-item" href="samsung.html">Samsung-galaxy</a></li>
+                            <li><a class="dropdown-item" href="iphone.html">Iphone</a></li>
+                            <li><a class="dropdown-item" href="#">Itel</a></li>
+                            <li><a class="dropdown-item" href="#">Tecno</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="apropos.html">Apropos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" id="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--header-->
+    <!-- home content -->
+    <section class="home">
+        <div class="content">
+            <h1>
+                <span>Bienvenue chez Telephone Shop! Plongez dans l'univers des produits mobiles</span>
+                <br>
+                Jusqu'à <span id="span2">50%</span> de reduction.
+            </h1>
+            <div class="btn"><button>Acheter maintenant</button></div>
+
+        </div>
+        <div class="img">
+            <img src="img/bureau.png" alt="">
+        </div>
+    </section>
+
+<!-- home content -->
+    <!-- produit cards -->
+    <div class="container" id="produit-cards">
+        <h1 class="text-center">PRODUITS</h1>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/1d13c78d188a2a5df2562027122cf091.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Iphone 14 pro</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $1450 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/téléchargement (1).jpeg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Samsung</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $30 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/téléchargement (3).jpeg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Iphone</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $350 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/téléchargement (4).jpeg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Laptop</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $950 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/téléchargement (9).jpeg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Smart Watch</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $50.60 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/téléchargement (6).jpeg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Iphone X</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $550 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/téléchargement.jpeg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Iphone 12</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $300 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/7ddbcdbe0ed93fb8bc25da2e3c6cf626.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Iphone 12 Pro</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $50 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- produit cards -->
+    
+    <!-- banner -->
+    <section class="banner">
+        <div class="content">
+            <h1>
+                <span>Telephone Shop
+                    Avec une reduction de 50%, Profitez de la technologie de pointe à portée de main et restez connecté comme jamais! </span>
+                <br>
+                Up To <span id="span2">50%</span> Off
+            </h1>
+        </div>
+        <div class="img">
+            <img src="image2/SPARK_20_PRO_1-removebg-preview.png" alt="">
+        </div>
+    </section>
+    <!-- banner -->
+    <!-- prduit cards -->
+    <div class="container" id="produit-cards">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/samsung-galaxy-s20-ultra-5g-256-go-gris.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Samsung-galaxy</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $650.50 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/samsung-galaxy-s22-ultra-128-go-noir.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Samsung-galaxy S22</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $500 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/samsung-galaxy-s22-ultra-128-go-noir.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Tecno</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $1050 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 py-3 py-md-0">
+                <div class="card">
+                    <img src="image2/samsung-galaxy-s20-ultra-5g-256-go-gris.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="text-center">Itel</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        <div class="star text-center">
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                            <i class="fa-solid fa-star cherked"></i>
+                        </div>
+                        <h2>
+                            $350 <span>
+                                <li class="fa-solid fa-cart-shopping"></li>
+                            </span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- other cards -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="page-link" href="index.html">Précédent</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="PRODUITS.html">1</a></li>
+              <li class="page-item"><a class="page-link" href="apropos.html">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link bg bg-danger text text-white" href="PRODUITS.html">Prochain</a>
+              </li>
+            </ul>
+          </nav>
+        
+        <!-- other cards -->
+        
+    <!-- produit cards -->
+    <!-- other cards -->
+    
+    <!-- other cards -->
+    <!-- offer -->
+    <div class="container-fluid" id="offer">
+        <div class="row">
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Livraison graduit</h3>
+                <p>sur commande de plus de $1000</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>Retour graduits</h3>
+                <p>Dans le 30 jours</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Livaison rapide</h3>
+                <p>dans le monde entier</p>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h3>Grand Choix</h3>
+                <p>Des Produits</p>
+            </div>
+        </div>
+    </div>
+    <!-- offer-->
+    <!-- newslater -->
+    <div class="container" id="newslater">
+        <h3 class="text-center">Abonnez-vous au Telephone Shop au dernier Telechargement.</h3>
+        <div class="input text-center">
+            <input type="text" placeholder="Entrer Votre Email...">
+            <button id="subscribe">ABONNEZ-VOUS</button>
+        </div>
+    </div>
+    <!-- newslater -->
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Telephone Shop</h3>
+                        <p>
+                            Karachi <br>
+                            Sindh <br>
+                            Pakitan <br>
+                        </p>
+                        <strong>Telephone:</strong> +243831038546 <br>
+                        <strong>Email:</strong> telephoneshop@gmail.com <br>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Liens utiles</h4>
+                        <ul>
+                            <li><a href="#">Accueill</a></li>
+                            <li><a href="#">A propos</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Conditions d'utilisation</a></li>
+                            <li><a href="#">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Nos Services</h4>
+                        <ul>
+                            <li><a href="#">Iphone</a></li>
+                            <li><a href="#">Samsumg</a></li>
+                            <li><a href="#">Itel</a></li>
+                            <li><a href="#">Techno</a></li>
+                            <li><a href="#">Gaming Gadget</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Notre réseau social</h4>
+                        <p>Naviguez à travers notre sélection de produits 
+                        et service innovants. inscrivez-vous aujourd'hui pour bénéficier 
+                        d'offre exclusives</p>
+                            <div class="socail-links mt-3">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-skype"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container py-4">
+            <div class="Droit d'Auteur">
+                &copy; Droit d'Auteur <strong><span>Telephone Shop</span></strong>. Tous droit réservés
+            </div>
+            <div class="credits">
+                Conçu Par <a href="#">SA Groupe Science</a>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <a href="#" class="arrow"><i><img src="img" alt=""></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
